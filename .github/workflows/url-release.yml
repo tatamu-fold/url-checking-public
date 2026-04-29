@@ -3,7 +3,7 @@ name: url-release
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '31 10 * * *'
 
 jobs:
   url-release:
